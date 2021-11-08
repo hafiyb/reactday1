@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './container/header/index';
+import Main from './container/main/index'
+import Works from './container/works/index'
+import Download from './container/download/index'
+import Connecting from './container/connecting/index'
+import Subscribe from './container/subscribe/index'
+import Footer from './container/footer/index'
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Main />
+    <Works />
+    <Download />
+    <Connecting />
+    <Subscribe />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
